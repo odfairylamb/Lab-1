@@ -24,3 +24,5 @@ disp("The power in R1 is: " + P_R1)
 disp("The power in R2 is: " + P_R2)
 disp("The power in R3 is: " + P_R3)
 disp("The power in R4 is: " + P_R4)
+p = [P_R1 P_R2 P_R3 P_R4];
+bar(p)
