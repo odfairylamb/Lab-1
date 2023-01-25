@@ -20,7 +20,7 @@ P_R3 = (I_R3**2)*R3_ohms
 P_R4 = (I_R4**2)*R4_ohms
 print("The power in R1 is: ", P_R1, "\nThe power in R2 is: ", P_R2, "\nThe power in R3 is: ", P_R3, "\nThe power in R4 is: ", P_R4)
 
-#graphing even though its overdue lol :(
+#graphing data
 fig, ax = plt.subplots()
 resistors = ['R1', 'R2', 'R3', 'R4']
 counts = [P_R1, P_R2, P_R3, P_R4]
